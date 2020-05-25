@@ -17,7 +17,8 @@ const ProjectState = props => {
     {id: 1, name: 'Virtual Market'},
     {id: 2, name: 'Fifa 20'},
     {id: 3, name: 'Call of Dutty'},
-    {id: 4, name: 'MERN'}
+    {id: 4, name: 'MERN'},
+    {id: 5, name: 'React'}
   ]
 
   const initialState = {

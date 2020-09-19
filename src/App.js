@@ -13,9 +13,9 @@ function App() {
       <TaskState>
         <Router>
           <Switch>
-            <Route exact path="/" component={Login}></Route>
+            <Route exact path="/login" component={Login}></Route>
             <Route exact path="/sign-up" component={NewAccount}></Route>
-            <Route exact path="/projects" component={Projects}></Route>
+            <Route exact path="/" component={Projects}></Route>
           </Switch>
         </Router>
       </TaskState>
